@@ -1,4 +1,4 @@
-'use strict';
+' use strict ';
 
 module.exports = function(grunt) {
 
@@ -29,8 +29,8 @@ module.exports = function(grunt) {
                 keepAlive: true, // If false, the grunt process stops when the test fails.
                 noColor: false,
                 debug: true,
-                // debug: 5859
-                port: process.env.PORT || 5555
+                // debug: 5555
+                // port: process.env.PORT || 5555
               }
             },
             // run: {}
@@ -39,5 +39,5 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-protractor-runner');
   // grunt.registerTask( 'test', ['protractor:debug']);
-  grunt.registerTask( 'test', ['protractor']);
+  grunt.registerTask( 'test', ['protractor:e2e']);
 };

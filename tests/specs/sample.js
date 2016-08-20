@@ -5,6 +5,9 @@ describe('Test 2', function() {
 
     $(".search-query").sendKeys("Prashanth Sams");
 
+    // this.filterTeamDropdown = $("filter-item-edit .dropdown button");
+    // this.teams = this.filterTeamDropdown.$$(this.filterTeamDropdown.locator().value + " + ul li.dropdown-list-item");
+
 		// element.all(by.css("li.dropdown > a")).get(0).getText().then(function(value) {
     // 		console.log(value);
 		// });
@@ -13,8 +16,11 @@ describe('Test 2', function() {
 		// 		console.log(value);
 		// });
 
+    // console.log(element(by.css(".hero-unit")).locator().using);
+    // console.log(element(by.css(".hero-unit")).locator().value);
+
 		// element(by.css(".hero-unit")).element(by.css("h1")).isPresent().then(function(value) {
-		// 		console.log(value);
+		// 		console.log(element(by.css(".hero-unit")).locator());
 		// });
 
 		// expect(element(by.css(".hero-unit")).isPresent()).toBe(true);
