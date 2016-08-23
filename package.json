@@ -6,9 +6,8 @@
   "author": "Prashanth Sams",
   "license": "MIT",
   "scripts": {
-    "update-webdriver": "webdriver-manager update",
-    "test": { "node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update"}
-
+    "update-webdriver": "node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update",
+    "test": "grunt test"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
