@@ -6,7 +6,7 @@
   "author": "Prashanth Sams",
   "license": "MIT",
   "scripts": {
-    "test": "grunt test:debug"
+    "test": "grunt test"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
