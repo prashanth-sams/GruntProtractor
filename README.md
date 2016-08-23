@@ -3,4 +3,4 @@
 # GruntProtractor
 
 ## To Run
-Grunt test
+npm test
