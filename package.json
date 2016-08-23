@@ -6,9 +6,7 @@
   "author": "Prashanth Sams",
   "license": "MIT",
   "scripts": {
-    "preupdate-webdriver": "npm install",
     "update-webdriver": "webdriver-manager update",
-    "preprotractor": "npm run update-webdriver",
     "test": "grunt test"
   },
   "devDependencies": {
