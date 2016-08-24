@@ -2,8 +2,14 @@ language: node_js
 node_js:
   - '4.2.3'
 
+sudo: false
+addons:
+  apt:
+    packages:
+      - oracle-java8-installer
+      - java -version
+
 script:
-  - sudo apt-get update && sudo apt-get install --only-upgrade google-chrome-stable
   - npm run update-webdriver
   - npm run start-webdriver
   - npm run status-webdriver
