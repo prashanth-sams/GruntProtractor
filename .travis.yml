@@ -9,6 +9,6 @@ before_script:
   - sleep 3
 
 script:
-  - npm run start-webdriver
+  # - npm run start-webdriver
   - npm run status-webdriver
   - npm test
