@@ -7,8 +7,8 @@
   "license": "MIT",
   "scripts": {
     "update-webdriver": "node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update",
-    "start-webdriver": "webdriver-manager start",
-    "status-webdriver": "webdriver-manager status",
+    "start-webdriver": "node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager start 2>&1 &",
+    "status-webdriver": "node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager status",
     "test": "grunt test"
   },
   "devDependencies": {

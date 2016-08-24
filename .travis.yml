@@ -11,5 +11,4 @@ script:
   - npm run update-webdriver
   - npm run start-webdriver
   - npm run status-webdriver
-  - 'node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager start 2>&1 &'
   - npm test
