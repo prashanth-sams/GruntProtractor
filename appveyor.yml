@@ -18,7 +18,7 @@ install:
   - ps: Install-Product node $env:NODE_VERSION
   - node --version
   - npm --version
-  - npm install -g npm@%NPM_VERSION%
+  - npm install
 
 build: off
 
