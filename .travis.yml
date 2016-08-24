@@ -6,6 +6,7 @@ jdk:
   - oraclejdk8
 
 script:
+  - jdk_switcher use oraclejdk8
   - java -version
   - npm run update-webdriver
   - npm run start-webdriver
