@@ -2,10 +2,10 @@ language: node_js
 node_js:
   - '4.2.3'
 
-sudo: required
-dist: trusty
-addons:
-  firefox: "44.0"
+# sudo: required
+# dist: trusty
+# addons:
+#   firefox: "44.0"
 before_script:
   - npm run update-webdriver
   - export DISPLAY=:99.0
