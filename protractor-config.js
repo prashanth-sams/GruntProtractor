@@ -8,8 +8,8 @@ exports.config = {
   // selenium: 'http://localhost:12345/wd/hub',
   // seleniumPort: 12345, // Port matches the port above
 
-  seleniumServerJar: 'node_modules/grunt-protractor-runner/node_modules/protractor/selenium/selenium-server-standalone-2.52.0.jar',
-// chromeDriver: 'node_modules/grunt-protractor-runner/node_modules/protractor/selenium/chromedriver_2.21',
+  // seleniumServerJar: 'node_modules/grunt-protractor-runner/node_modules/protractor/selenium/selenium-server-standalone-2.52.0.jar',
+chromeDriver: 'node_modules/grunt-protractor-runner/node_modules/protractor/selenium/chromedriver_2.21',
   // seleniumArgs: ['-Dwebdriver.ie.driver=./node_modules/gulp-protractor/node_modules/protractor/selenium/IEDriverServer.exe'],
 
   // Capabilities to be passed to the webdriver instance.
