@@ -3,7 +3,7 @@ node_js:
   - '4.2.3'
 
 addons:
-  firefox: "39.0"
+  firefox: "44.0"
 
 before_script:
   - npm run update-webdriver
