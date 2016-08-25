@@ -4,14 +4,15 @@ machine:
     - sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
     - sudo apt-get update
     - sudo apt-get install google-chrome-stable
-  mode_js:
-    version: "4.3"
+  node:
+    version: "4.2.3"
 general:
   branches:
     only:
       - master
 test:
-  override:
+  post:
+    - npm install
     - npm run update-webdriver
     - export DISPLAY=:99.0
     - sh -e /etc/init.d/xvfb start
