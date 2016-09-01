@@ -14,7 +14,7 @@ chromeDriver: 'node_modules/grunt-protractor-runner/node_modules/protractor/sele
 
   // Capabilities to be passed to the webdriver instance.
   capabilities: {
-    browserName: 'firefox',
+    browserName: 'chrome',
     // shardTestFiles: true,
     // maxInstances: 2
   },
