@@ -4,5 +4,5 @@
 
 # GruntProtractor
 
-## To Run locally
+## To Run local
 npm test
